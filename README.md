@@ -26,6 +26,7 @@ SmartTable AI là một ứng dụng **đặt bàn nhà hàng thông minh** đư
 ---
 
 ## 📁 Cấu trúc thư mục
+```text
 smarttable-ai---restaurant-booking/
 │
 ├── components/
@@ -43,6 +44,7 @@ smarttable-ai---restaurant-booking/
 ├── .env.local
 ├── package.json
 └── README.md
+```
 ## ⚙️ Yêu cầu hệ thống
 
 - Node.js >= 16
@@ -58,26 +60,33 @@ npm -v
 ## 📦 Cài đặt & chạy dự án
 
 Bước 1: Clone hoặc giải nén source code
+
 git clone [<repository-url>](https://github.com/phmhienn/smarttable)
 cd smarttable
+
 Bước 2: Cài đặt các thư viện cần thiết
+
 npm install
+
 Bước 3: Cấu hình biến môi trường (nếu có)
+
 Mở file .env.local:
 VITE_API_URL=your_api_url_here
+
 Bước 4: Chạy ứng dụng
+
 npm run dev
 
 ## 📌 Ghi chú
-Project hiện tại chủ yếu là frontend, có thể chạy với dữ liệu mock.
+- Project hiện tại chủ yếu là frontend, có thể chạy với dữ liệu mock.
 
-AI Prediction mang tính mô phỏng, có thể mở rộng bằng:
+- AI Prediction mang tính mô phỏng, có thể mở rộng bằng:
 
-Backend Node.js / Spring Boot
+- Backend Node.js / Spring Boot
 
-Python / FastAPI
+- Python / FastAPI
 
-OpenAI API
+- OpenAI API
 
 ## 🌱 Hướng phát triển
 - Kết nối backend hoàn chỉnh
