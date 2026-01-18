@@ -1,0 +1,5 @@
+{
+  "name": "SmartTable AI - Restaurant Booking",
+  "description": "A smart restaurant reservation system that uses AI to predict peak hours and suggest optimal dining times to avoid crowds.",
+  "requestFramePermissions": []
+}
